@@ -65,7 +65,6 @@ body{
 
 .section-principal-paragrafo{
     display: flex;
-    width: 630px;
     text-align: justify;
 }
 
@@ -78,5 +77,9 @@ body{
 }
 
 .footer{
+
+}
+
+@media(max-width: 800px){
 
 }
