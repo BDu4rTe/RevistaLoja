@@ -7,16 +7,24 @@
 
 body{
     font-size: 100%;  
-    background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+    background: #9B8271;
    
 }
 
 .cabecalho {
+    background-color: #725A4A;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 24px;
+}
+
+.nome-revista{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 48px;
+    color: white;
 }
 
 .logo{
@@ -27,38 +35,32 @@ body{
 
 .menu-nav{
     display: flex;
+    align-items: center;
     gap: 32px;
 }
 
 .menu-item{
-    font-family: 'Play', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: white;
 }
 
 .conteudo{
-    border-top: 1px solid white;
+   padding: 24px;
 }
 
 .section-principal{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: space-around;
     padding: 32px;
 }
 
-.section-principal-text{
-    font-family: 'Play', sans-serif;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    color: white;
-}
-
 .section-principal-titulo{
-    font-family: 'Play', sans-serif;
-    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    align-items: flex-start;
+    font-weight: 400;
     font-size: 48px;
     color: white;
 }
@@ -69,11 +71,20 @@ body{
 }
 
 .image{
-    width: 50px;
+    width: 250px;
+    height: 250px;
 }
 
-.div-img{
+.div-img-perfume{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
 
+.div-img-chocolate{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
 }
 
 .footer{
