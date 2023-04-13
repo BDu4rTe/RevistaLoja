@@ -70,10 +70,6 @@ a:hover{
   font-size: 40px;
 }
 
-.lower-section{
-
-}
-
 .footer{
   border-top: white 2px solid;
   display: flex;
@@ -101,16 +97,23 @@ a:hover{
 }
 
 .lower-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 32px;
   gap: 24px;
-  display: flex;
 }
 
 .lower-paragrafo{
   font-family: 'Poppins', sans-serif;
   color: white;
-  text-align: justify;
+  text-align: center;
   font-size: 18px;
+}
+
+.icon-lower-section{
+  color: white;
+  font-size: 50px;
 }
 
 /* =====Modal===== */
