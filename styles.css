@@ -14,24 +14,18 @@ body{
 .cabecalho {
     background-color: #725A4A;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 24px;
 }
 
-.nome-revista{
+.name{
     font-family: 'Lobster', cursive;
     font-weight: 400;
     font-size: 48px;
     color: white;
 }
 
-.logo{
-    width: 72px;
-    border-radius: 40px;
-    border: 2px solid white;
-}
 
 .menu-nav{
     display: flex;
@@ -42,25 +36,26 @@ body{
 .menu-item{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
+    text-decoration: none !important;
 }
 
-.conteudo{
-   padding: 24px;
+a:hover{
+  text-decoration: none;
+  color:white;
 }
 
 .section-principal{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 32px;
 }
 
 .section-principal-titulo{
     font-family: 'Poppins', sans-serif;
     align-items: flex-start;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 48px;
     color: white;
 }
@@ -70,27 +65,142 @@ body{
     text-align: justify;
 }
 
-.image{
-    width: 250px;
-    height: 250px;
+#carrinho-nav{
+  color: white;
+  font-size: 40px;
 }
 
-.div-img-perfume{
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-}
+.lower-section{
 
-.div-img-chocolate{
-    display: flex;
-    justify-content: center;
-    gap: 32px;
 }
 
 .footer{
-
+  border-top: white 2px solid;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 80px;
+  position: relative;
+  top: auto;
+  bottom: 0;
 }
 
-@media(max-width: 800px){
+.alunas{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
 
+#github-img{
+  width: 80px;
+  height: 80px;
+}
+
+.lower-section{
+  padding: 32px;
+  gap: 24px;
+  display: flex;
+}
+
+.lower-paragrafo{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align: justify;
+  font-size: 18px;
+}
+
+/* =====Modal===== */
+
+.modal-body{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.modal-title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.modal-footer{
+  border-top: white solid 1px;
+}
+
+.modal-header{
+  border-bottom: white solid 1px;
+}
+
+.modal-content{
+  background-color: #9B8271;
+}
+
+.btn-modal{
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  height: 40px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+#succes{
+  background-color: #4EBD82;
+}
+
+#danger{
+  background-color: #FC6E7C;
+}
+
+.close {
+  color: white;
+  font-size: 20px;
+}
+
+/* =====Carrinho===== */
+
+.image-carrinho{
+  width: 70%;
+  border-radius: 10px;
+}
+
+.imgs-carrinho{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  gap: 10px;
+}
+
+.preco-carrinho{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.preco-box{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.qtn-carrinho{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.qtn-box{
+  border: white solid 2px;
+  text-align: center;
+  padding: 10px;
+  width: 30px;
 }
