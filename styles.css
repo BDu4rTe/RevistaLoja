@@ -109,6 +109,7 @@ a:hover{
   color: white;
   text-align: center;
   font-size: 18px;
+  max-width: 900px;
 }
 
 .icon-lower-section{
